@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": ["Hello!", "Hey!", "Welcome to Notre Dame University Bangladesh! How can I assist you?"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "what's your name",
+        "who are you",
+        "what should I call you"
+      ],
+      "responses": ["You can call me Rapid-info, the virtual assistant of Notre Dame University Bangladesh.", "I'm Rapid-info, here to help you with information about Notre Dame University Bangladesh."]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are available",
+        "how many courses are there in the university"
+      ],
+      "responses": ["Notre Dame University Bangladesh offers various undergraduate and postgraduate programs in disciplines such as Business Administration, Computer Science, English, Economics, etc. For more detailed information, please visit the university's official website."]
+    },
+    {
+      "tag": "courseDuration",
+      "patterns": [
+        "how long will the courses take to complete",
+        "what is the duration of the courses"
+      ],
+      "responses": ["The duration of each course may vary. It is best to refer to the specific program's curriculum or contact the university for accurate information."]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "location",
+        "where is the university located",
+        "what is the location of the university"
+      ],
+      "responses": ["Notre Dame University Bangladesh is located at Motijheel Commercial Area, Dhaka, Bangladesh."]
+    },
+    {
+      "tag": "semesters",
+      "patterns": [
+        "how many semesters are there in a year",
+        "how many semesters one should study in a year"
+
+      ],
+      "responses": ["There are typically three semesters in an academic year at Notre Dame University Bangladesh: Spring, Summer, and Fall."]
+    },
+    {
+      "tag": "semDuration",
+      "patterns": [
+        "how many months are there in a semester",
+        "how long is a single semester",
+        "what is the duration of a semester"
+      ],
+      "responses": ["Each semester usually lasts for approximately four months at Notre Dame University Bangladesh."]
+    },
+    {
+      "tag": "admissionRequirements",
+      "patterns": [
+        "what are the admission requirements",
+        "what are the requirements for admission",
+        "what are the eligibility criteria for admission"
+      ],
+      "responses": ["The specific admission requirements may vary depending on the program. It is recommended to visit the university's official website or contact the admission office for detailed information about admission requirements and eligibility criteria."]
+    },
+    {
+      "tag": "classes",
+      "patterns": [
+        "how many classes will there be in a day",
+        "how long are the classes"
+      ],
+      "responses": ["The number of classes and their duration can vary based on the program and timetable. Generally, there are multiple classes per day, and each class is around 1-2 hours long."]
+    },
+    {
+      "tag": "teachingStyle",
+      "patterns": [
+        "what is the teaching style of the university",
+        "is the teaching pattern different from other universities",
+        "what is the teaching format"
+      ],
+      "responses": ["Notre Dame University Bangladesh follows a student-centered approach to education. The teaching style focuses on interactive lectures, group discussions, case studies, and practical applications. The university aims to provide a holistic learning experience to its students."]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "what are the exams like",
+        "what is the exam pattern"
+      ],
+      "responses": ["Exams at Notre Dame University Bangladesh may include a combination of written exams, quizzes, presentations, projects, and assignments. The specific exam pattern can vary depending on the course and the instructor."]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours",
+        "when are you open",
+        "what are your hours of operation"
+      ],
+      "responses": ["As Rapid-info, the virtual assistant, I'm available to assist you 24/7. For information regarding the university's office hours and operation, please refer to their official website or contact the relevant department."]
+    },
+    {
+      "tag": "funActivities",
+      "patterns": [
+        "will there be any extracurricular activities",
+        "does the university conduct any fun programs"
+      ],
+      "responses": ["Yes, Notre Dame University Bangladesh encourages students to participate in various extracurricular activities. The university organizes events like sports tournaments, cultural programs, workshops, seminars, and more. These activities aim to promote overall personal development and create a vibrant campus community."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities are provided by the university",
+        "what are the facilities of the university for students",
+        "what are the university infrastructures"
+      ],
+      "responses": ["Notre Dame University Bangladesh provides various facilities for students, including well-equipped classrooms, libraries, computer labs, sports facilities, cafeterias, and student support services. The university strives to create a conducive environment for learning and personal growth."]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "how much is the university fee",
+        "what is the fee structure"
+      ],
+      "responses": ["The fee structure at Notre Dame University Bangladesh can vary depending on the program and level of study. It is recommended to visit the university's official website or contact the finance department for detailed information about the fee structure."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "i am leaving",
+        "have a good day",
+        "bye",
+        "see ya"
+      ],
+      "responses": ["Goodbye! If you have any more questions, feel free to ask. Have a great day!"]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "gvsd",
+        "asbhk"
+      ],
+      "responses": ["Sorry, I couldn't understand your message. Could you please provide more information or ask a specific question?"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "awesome, thanks",
+        "thanks for helping me"
+      ],
+      "responses": ["You're welcome! If you need any further assistance, feel free to ask."]
+    }
+  ]
+}
